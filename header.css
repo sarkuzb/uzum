@@ -1,0 +1,151 @@
+
+
+.header{
+    height: 100px;
+    width: 1215px;
+    background-color: white;
+    display: grid;
+    align-items: center;
+    vertical-align: middle;
+    position: fixed;
+}
+
+.first-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.second-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.category-div{
+    align-items: center;
+    display: flex;
+    vertical-align: middle;
+    background-color: rgb(225, 224, 255);
+    border-radius: 5px;
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.category-div:hover{
+    background-color: rgb(207, 206, 255);
+    transition: 0.1s;
+}
+
+.category-inside{
+    align-items: center;
+    display: flex;
+    vertical-align: middle;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(142, 97, 255);
+}
+
+.input-category{
+    align-items: center;
+    display: flex;
+    vertical-align: middle;
+    height: 40px;
+    background-color: rgb(225, 224, 255);
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid rgb(173, 173, 173);
+}
+
+.poisk-category{
+    width: 400px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+}
+
+.search-icon{
+    cursor: pointer;
+    width: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(231, 231, 231);
+}
+
+.uzum-logo{
+    object-fit: contain;
+    width: 100px;
+}
+
+.image-category{
+    width: 100px;
+}
+
+.right-side{
+    display: flex;
+}
+
+.right-side-div-inside{
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    padding: 5px;
+    margin-right: 15px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.right-side-div-inside:hover{
+    background-color: rgb(231,231,231);
+    border-radius: 5px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.icons{
+    margin-right: 5px;
+}
+
+.rasrochka{
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.texts-category{
+    color: gray;
+    font-family: sans-serif;
+    position: relative;
+}
+
+.texts-category:after{
+    display: block;
+    content: "";
+    position: absolute;
+    background-color: rgb(196, 196, 196);
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -10;
+    transition: width 0.3s ease, background-color 0.8s ease-out;
+}
+
+.texts-category:hover:after{
+    width: 100%;
+    background-color: rgb(54, 54, 54);
+}
+
+.texts-category:hover{
+    color: rgb(53, 53, 53);
+}

@@ -1,0 +1,145 @@
+.sidebar{
+    position: fixed;
+    bottom: 0;
+    left: 350px;
+    top: 100px;
+    overflow: auto;
+    padding: 10px;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+.sidebar-category{
+    font-family: sans-serif;
+    font-size: 19px;
+    margin-top: 5px;
+}
+
+.sidebar-first-div{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.sidebar-category-inside{
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-left: 25px;
+    color: rgb(85, 85, 85);
+    cursor: pointer;
+    padding: 10px;
+}
+
+.sidebar-category-inside:hover{
+    background-color: rgb(207, 207, 207);
+    border-radius: 5px;
+    color: black;
+}
+
+.div-price{
+    font-family: sans-serif;
+    margin-left: 25px;
+    margin-top: 45px;
+}
+
+.price{
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+
+.sena-sum{
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+    border: 1px solid rgb(156, 156, 156);
+    padding: 5px;
+    border-radius: 4px;
+    margin-right: 5px;
+    margin-bottom: 55px;
+}
+
+.from-to-price{
+    display: inline-flex;
+    font-size: 12px;
+    margin: 0px;
+    color: gray;
+}
+
+.input-sidebar{
+    width: 55px;
+    outline: none;
+    border: none;
+}
+
+.colors-div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.green{
+    background-color: lightgreen;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+}
+
+.red{
+    background-color: rgb(255, 80, 80);
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+}
+
+.purple{
+    background-color: rgb(172, 48, 172);
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+}
+
+.pink{
+    background-color: pink;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+}
+
+.colors{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 14px;
+    color: rgb(70, 70, 70);
+    cursor: pointer;
+}
+
+.colors:hover{
+    color: black;
+}
+
+.colors-container{
+    margin-bottom: 45px;
+}
+
+.checkbox-div{
+    display: flex;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.checkbox{
+    margin: 0;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.label-checkbox{
+    font-size: 14px;
+    color: rgb(70, 70, 70);
+    cursor: pointer;
+}
+
+.checkbox:checked + .label-checkbox {
+    color: black;
+}
